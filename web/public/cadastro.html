@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap">
+
+    <title>CarUFFS</title>
+</head>
+
+<body>
+
+    <main>
+        <h2>Criar a sua conta</h2>
+        <forms>
+            <div>
+                <div><label class="letras">Nome completo*</label></div>
+                <input type="text" size="20 " placeholder="Nome completo ">
+            </div>
+            <div>
+                <div><label class="letras">E-mail*</label></div>
+                <input type="e-mail" size="20 " placeholder="adicionar seu e-mail para login ">
+            </div>
+            <div>
+                <div><label class="letras">WhatsApp*</div>
+                <input type="whatsapp" pattern="([0-9]{2})[0-9]{4}[0-9]{4}" size="20 " placeholder="somente números ">
+            </div>
+            <div>
+                <div><label class="letras">Gênero*</label></div>
+                <select name="genero">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Não binário</option>
+                        <option>Outro</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <div><label class="letras">Categoria*</label></div>
+                <select name="categoria">
+                    <option>Técnico</option>
+                    <option>Docente / Professor(a)</option>
+                    <option>Servidor Público</option>
+                    <option>Outros</option>
+                </select>
+                </label>
+            </div>
+            <div>
+                <div><label class="letras">Mini-bio(opcional)</label></div>
+                <textarea class="mini_bio" cols="15" rows="5" placeholder="Escreva um pouco sobre você, para as pessoas te conhecer (opcional) "></textarea>
+            </div>
+            <div>
+                <div><label class="letras">Senha*</label></div>
+                <input type="senha" size="20 " placeholder="senha ">
+            </div>
+            <div>
+                <div><label class="letras">Confirmação da senha*</label></div>
+                <input type="confirma_senha" size="20 " placeholder="confirmar senha ">
+            </div>
+
+            <div><a href="#" class="login-btn">Salvar e cadastrar</a></div>
+
+        </forms>
+    </main>
+</body>
+
+</html>
